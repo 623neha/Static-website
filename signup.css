@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px
+}
+
+.sign{
+    width: 100%;
+    background: url(5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.box{
+    width: 320px;
+    height: 400px;
+    background: rgb(40, 41, 40);
+    text-align: center;
+    top: 40px;
+    left: 460px;
+    position: absolute;
+    padding: 25px;
+    border: 2px solid orange;
+    background: transparent;
+}
+ h1{
+    width: 270px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orangered;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 18px;
+    padding: 8px;
+}
+
+
+ input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orangered;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-left: 0px;
+    font-family: sans-serif;
+} 
+
+input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+
+.btn{
+    width: 240px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.btn :hover
+{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
